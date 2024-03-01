@@ -7,6 +7,7 @@
 
 'use strict';
 
+
 function getComments(path) {
   const allComments = path.hub.file.ast.comments;
   if (path.node.leadingComments) {
